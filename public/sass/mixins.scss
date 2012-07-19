@@ -22,6 +22,12 @@
 	position: relative;
 }
 
+@mixin ipad
+{
+	width:1024px;
+	height:672px;
+}
+
 @mixin block
 {
 	@include border-radius(8px);
