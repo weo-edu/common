@@ -11,6 +11,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'MayonaiseCondRegular';
+    src: url('/app!common/fonts/mayonaise-condensed-webfont.eot');
+    src: url('/app!common/fonts/mayonaise-condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/app!common/fonts/mayonaise-condensed-webfont.woff') format('woff'),
+         url('/app!common/fonts/mayonaise-condensed-webfont.ttf') format('truetype'),
+         url('/app!common/fonts/mayonaise-condensed-webfont.svg#MayonaiseCondRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 //	MIXINS
 ////////////////////////////
