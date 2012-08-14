@@ -1,3 +1,5 @@
+@import "compass/utilities/general/clearfix";
+@import "compass/reset";
 @import "compass/css3";
 
 @font-face {
@@ -78,7 +80,7 @@ body
 
 h1,h2,h3,h4,h5
 {
-	font-family: HighlandsRegular;
+	font-family: Fresca;
 	text-transform: uppercase;
 }
 
