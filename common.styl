@@ -36,7 +36,7 @@
   font-family: 'Fresca';
   font-style: normal;
   font-weight: 400;
-  src: local('Fresca-Regular'), url(http://themes.googleusercontent.com/static/fonts/fresca/v2/d-W4qajtBODIvW9mWhVTMw.woff) format('woff');
+  src: local('Fresca-Regular'), url('http://themes.googleusercontent.com/static/fonts/fresca/v2/0g0OM5y6slfdHcIfr5XnxevvDin1pK8aKteLpeZ5c0A.woff') format('woff');
 }
 
 //	MIXINS
@@ -69,6 +69,16 @@ h1, h2, h3, h4, h5 {
 
 #content{
 	center();
+    margin-top: 20px;
+    border: 15px solid #FFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #333;
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        border: 0;
+        border-radius: 0;
+        box-shadow: 0 0 0;
+        margin-top: 0;
+    }  
 }
 
 a {
