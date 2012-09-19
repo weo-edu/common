@@ -74,11 +74,12 @@ ipad() {
 //	GENERAL
 ////////////////////////////
 
-::selection {
-    background:#cc0000;
-    color:#fff;
-    text-shadow: 0 0 0;
-}
+highlight = #00AEEF;
+::selection     {background: highlight; color: #FFF;}
+::-moz-selection  {background: highlight; color: #FFF;}
+img::selection    {background: transparent;}
+img::-moz-selection {background: transparent;}
+body {-webkit-tap-highlight-color: highlight;}
 
 body {
 	font-family: Arial;
