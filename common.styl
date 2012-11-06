@@ -1,37 +1,5 @@
 @import 'nib';
 
-// @font-face {
-//     font-family: 'HighlandsRegular';
-//     src: url('/app!common/fonts/highlands-regular-webfont.eot');
-//     src: url('/app!common/fonts/highlands-regular-webfont.eot?#iefix') format('embedded-opentype'),url('/app!common/fonts/highlands-regular-webfont.woff') format('woff'),url('/app!common/fonts/highlands-regular-webfont.ttf') format('truetype'),url('/app!common/fonts/highlands-regular-webfont.svg#HighlandsRegular') format('svg');
-//     font-weight: normal;
-//     font-style: normal;
-// }
-
-// @font-face {
-//     font-family: 'MayonaiseCondRegular';
-//     src: url('/app!common/fonts/mayonaise-condensed-webfont.eot');
-//     src: url('/app!common/fonts/mayonaise-condensed-webfont.eot?#iefix') format('embedded-opentype'),url('/app!common/fonts/mayonaise-condensed-webfont.woff') format('woff'),url('/app!common/fonts/mayonaise-condensed-webfont.ttf') format('truetype'),url('/app!common/fonts/mayonaise-condensed-webfont.svg#MayonaiseCondRegular') format('svg');
-//     font-weight: normal;
-//     font-style: normal;
-// }
-
-// @font-face {
-//     font-family: 'WisdomScript';
-//     src: url('/app!common/fonts/wisdom_script-webfont.eot');
-//     src: url('/app!common/fonts/wisdom_script-webfont.eot?#iefix') format('embedded-opentype'),url('/app!common/fonts/wisdom_script-webfont.woff') format('woff'),url('/app!common/fonts/wisdom_script-webfont.ttf') format('truetype'),url('/app!common/fonts/wisdom_script-webfont.svg#MayonaiseCondRegular') format('svg');
-//     font-weight: normal;
-//     font-style: normal;
-// }
-
-@font-face {
-    font-family: 'Nuku Nuku';
-    src: url('/app!common/fonts/nuku1-webfont.eot');
-    src: url('/app!common/fonts/nuku1-webfont.eot?#iefix') format('embedded-opentype'),url('/app!common/fonts/nuku1-webfont.woff') format('woff'), url('/app!common/fonts/nuku1-webfont.ttf') format('truetype'), url('/app!common/fonts/nuku1-webfont.svg#nuku_nukuregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @font-face {
   font-family: 'Fresca';
   font-style: normal;
@@ -44,16 +12,6 @@
   font-style: normal;
   font-weight: 400;
   src: local('Peralta'), local('Peralta-Regular'), url('http://themes.googleusercontent.com/static/fonts/peralta/v1/KA2KMFcRb4GJICetU6Rd5Q.woff') format('woff');
-}
-
-//  EASING
-////////////////////////////
-
-easing(ease = '') {
-    if(ease == 'easeOutBack') {
-        return cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    } else {
-    }
 }
 
 //	MIXINS
@@ -70,16 +28,8 @@ ipad() {
 	height:672px;
 }
 
-
 //	GENERAL
 ////////////////////////////
-
-highlight = #00AEEF;
-::selection     {background: highlight; color: #FFF;}
-::-moz-selection  {background: highlight; color: #FFF;}
-img::selection    {background: transparent;}
-img::-moz-selection {background: transparent;}
-body {-webkit-tap-highlight-color: highlight;}
 
 body {
 	font-family: Arial;
@@ -89,20 +39,6 @@ body {
 
 h1, h2, h3, h4, h5 {
 	font-family: "Fresca";
-}
-
-#content{
-	// center();
- //    margin-top: 20px;
- //    border: 15px solid #FFF;
- //    border-radius: 8px;
- //    box-shadow: 0 0 10px #333;
- //    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
- //        border: 0;
- //        border-radius: 0;
- //        box-shadow: 0 0 0;
- //        margin-top: 0;
- //    }  
 }
 
 a {
